@@ -1,0 +1,23 @@
+---
+import { ContactScreen } from '@/features/contact';
+import { defaultLanguage, useTranslations, type LanguageCode } from '@/i18n/ui';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const lang = defaultLanguage as LanguageCode;
+const t = useTranslations(lang, 'contactPage');
+
+const pageMeta = {
+  title: t('pageTitle'),
+  description: t('pageDescription'),
+};
+
+const layoutProps = {
+  lang,
+  mainHeadingTitle: pageMeta.title,
+  mainHeadingDescription: t('description'),
+};
+---
+
+<BaseLayout pageTitle={pageMeta.title} pageDescription={pageMeta.description}>
+  <ContactScreen {...layoutProps} />
+</BaseLayout>
