@@ -18,8 +18,6 @@ const mermaidStrategy = isProduction || isVercel ? 'pre-built' : 'inline-svg';
 console.log(`Using Mermaid strategy: ${mermaidStrategy}`);
 
 export default defineConfig({
-  output: 'server',
-  adapter: cloudflare(),
   site: 'https://theme-blog-1.da-oliveira-filho-03d.workers.dev',
   integrations: [
     react(),
