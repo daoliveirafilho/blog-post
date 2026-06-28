@@ -98,8 +98,8 @@ export const ui = {
     nav: {
       home: 'Accueil',
       tips: 'Astuces',
-      blog: 'Blog',
       projects: 'Projets',
+      blog: 'Blog',
       contact: 'Contact',
     },
     footer: {
@@ -338,9 +338,9 @@ export const ui = {
     },
     nav: {
       home: 'Home',
-      blog: 'Blog',
-      projects: 'Projects',
       tips: 'Tips',
+      projects: 'Projects',
+      blog: 'Blog',
       contact: 'Contact',
     },
     footer: {
