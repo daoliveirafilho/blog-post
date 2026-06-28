@@ -97,10 +97,10 @@ export const ui = {
     },
     nav: {
       home: 'Accueil',
-      blog: 'Blog',
-      contact: 'Contact',
-      projects: 'Projets',
       tips: 'Astuces',
+      blog: 'Blog',
+      projects: 'Projets',
+      contact: 'Contact',
     },
     footer: {
       rights: 'Utilisation du blog Astro Persona.',
@@ -339,9 +339,9 @@ export const ui = {
     nav: {
       home: 'Home',
       blog: 'Blog',
-      contact: 'Contact',
       projects: 'Projects',
       tips: 'Tips',
+      contact: 'Contact',
     },
     footer: {
       rights: 'Using the Astro Persona blog.',
