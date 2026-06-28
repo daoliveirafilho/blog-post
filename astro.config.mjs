@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-
+import cloudflare from '@astrojs/cloudflare';
 import react from '@astrojs/react';
 
 import mdx from '@astrojs/mdx';
@@ -18,6 +18,7 @@ const mermaidStrategy = isProduction || isVercel ? 'pre-built' : 'inline-svg';
 console.log(`Using Mermaid strategy: ${mermaidStrategy}`);
 
 export default defineConfig({
+  adapter: cloudflare(),
   site: 'https://theme-blog-1.da-oliveira-filho-03d.workers.dev',
   integrations: [
     react(),
