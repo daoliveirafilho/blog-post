@@ -6,7 +6,7 @@ pubDate: 2018-01-12
 heroImage:
   url: '@/assets/placeholder.webp'
   alt: 'Telemetria'
-tags: ['Dialog', 'FreeBSD', 'InfluxDB']
+tags: ['Dialog', 'Postgresql', 'Shell']
 difficulty: 'beginner'
 isDraft: false
 featured: true
@@ -44,7 +44,7 @@ Remplace les droits d'administration permanents par un accès temporaire automat
 Enregistre et consigne toutes les actions à privilèges, garantissant une traçabilité stricte pour la conformité réglementaire.
 
 ```javascript
-// Enregistrer les informations dans influxdb...
+// Enregistrer les informations ...
 PATH=~/programs
 export PATH
 export PROMPT_COMMAND='RETRN_VAL=$?; logger -t "pamtool" "$(whoami) -- $(fc -ln -0) [$RETRN_VAL]"'

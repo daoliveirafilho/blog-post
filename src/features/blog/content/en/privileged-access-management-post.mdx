@@ -6,7 +6,7 @@ pubDate: 2018-01-12
 heroImage:
   url: '../../../../assets/placeholder.webp'
   alt: 'PAM'
-tags: ['Dialog', 'FreeBSD', 'InfluxDB']
+tags: ['Dialog', 'Postgresql', 'Shell']
 difficulty: 'beginner'
 isDraft: false
 featured: true
@@ -45,7 +45,7 @@ Records and logs all privileged actions, ensuring strict traceability for regula
 
 
 ```javascript
-// Log info to influxdb...
+// Log info ...
 PATH=~/programs
 export PATH
 export PROMPT_COMMAND='RETRN_VAL=$?; logger -t "pamtool" "$(whoami) -- $(fc -ln -0) [$RETRN_VAL]"'
