@@ -1,0 +1,53 @@
+---
+lang: 'fr'
+title: "Gestion des accès à privilèges"
+description: "Sécurisez votre infrastructure distante grâce à des contrôles automatisés des permissions et des identités."
+pubDate: 2025-01-15
+heroImage:
+  url: '@/assets/placeholder.webp'
+  alt: 'Telemetria'
+tags: ['ESP32', 'FreeRTOS', 'Supabase']
+difficulty: 'beginner'
+isDraft: false
+featured: true
+relatedPosts: []
+---
+
+import InfoAlert from '@/features/blog/components/InfoAlert.astro';
+
+## Introduction
+
+Sécurisez votre infrastructure distante grâce à des contrôles automatisés des permissions et des identités.
+
+La gestion des accès à privilèges (PAM) est une stratégie fondamentale de cybersécurité qui sécurise et surveille les comptes disposant de privilèges élevés.
+
+<InfoAlert title="Note Importante">
+Cela restreint l'accès aux "clés du royaume" afin de minimiser les dommages causés par des pirates externes et des personnes malveillantes au sein de l'organisation.
+</InfoAlert>
+
+## Contenu Principal
+
+### Le principe du moindre privilège :
+
+Les utilisateurs et les processus ne se voient accorder que les droits d'accès minimaux strictement nécessaires à l'accomplissement de leurs rôles.
+
+### Coffre-fort sécurisé :
+
+Les administrateurs ne visualisent ni ne mémorisent directement les mots de passe. Les plateformes PAM les stockent de manière sécurisée dans un coffre-fort et injectent les identifiants directement dans la session.
+
+### Accès juste à temps:
+
+Remplace les droits d'administration permanents par un accès temporaire automatiquement révoqué une fois la tâche terminée.
+
+### Surveillance et audit des sessions :
+
+Enregistre et consigne toutes les actions à privilèges, garantissant une traçabilité stricte pour la conformité réglementaire.
+
+```javascript
+// Enregistrer les informations dans influxdb...
+PATH=~/programs
+export PATH
+export PROMPT_COMMAND='RETRN_VAL=$?; logger -t "pamtool" "$(whoami) -- $(fc -ln -0) [$RETRN_VAL]"'
+```
+
+N'hésitez pas à remplacer ce contenu par le vôtre.
