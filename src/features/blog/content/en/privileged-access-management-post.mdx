@@ -1,0 +1,54 @@
+---
+lang: 'en'
+title: 'Privileged Access Management'
+description: 'Secure your remote infrastructure with automated permissions and identity controls.'
+pubDate: 2018-01-12
+heroImage:
+  url: '../../../../assets/placeholder.webp'
+  alt: 'PAM'
+tags: ['Dialog', 'FreeBSD', 'InfluxDB']
+difficulty: 'beginner'
+isDraft: false
+featured: true
+relatedPosts: []
+---
+
+import InfoAlert from '@/features/blog/components/InfoAlert.astro';
+
+## Introduction
+
+Secure your remote infrastructure with automated permissions and identity controls.
+
+Privileged Access Management (PAM) is a core cybersecurity strategy that secures and monitors accounts with elevated permissions.
+
+<InfoAlert title="Important Note">
+It restricts "keys to the kingdom" access to minimize the damage from external hackers and malicious insiders.
+</InfoAlert>
+
+## Main Content
+
+### The Principle of Least Privilege:
+
+Users and processes are granted only the minimum access rights strictly necessary to perform their roles.
+
+### Secure Vaulting:
+
+Administrators do not directly view or memorize passwords. PAM platforms vault them securely and inject credentials directly into the session.
+
+### Just-in-Time (JIT) Access:
+
+Replaces permanent administrative rights with temporary access that is automatically revoked upon task completion.
+
+### Session Monitoring & Auditing:
+
+Records and logs all privileged actions, ensuring strict traceability for regulatory compliance.
+
+
+```javascript
+// Log info to influxdb...
+PATH=~/programs
+export PATH
+export PROMPT_COMMAND='RETRN_VAL=$?; logger -t "pamtool" "$(whoami) -- $(fc -ln -0) [$RETRN_VAL]"'
+```
+
+Feel free to replace this content with your own.
