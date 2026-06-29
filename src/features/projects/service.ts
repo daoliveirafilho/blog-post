@@ -17,7 +17,7 @@ const projectsListUnsorted: Array<ProjectData> = [
     imageUrl: placeholderFirst, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
-    tags: ['Ollama', 'PHP', 'Telegram'], // Generic tags
+    tags: ['Grafana', 'InfluxDB', 'Telegraf'], // Generic tags
     category: 'API', // Generic category
     date: '2018-03-12', // Generic date
     galleryImages: [
@@ -77,7 +77,7 @@ const projectsListUnsorted: Array<ProjectData> = [
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['ESP32', 'FreeRTOS', 'Supabase'], // Generic tags
     category: 'Internet of Thinks', // Generic category
-    date: '2020-01-11', // Generic date
+    date: '2019-11-10', // Generic date
     galleryImages: [
       // Optional: Gallery images for the project
       // {
