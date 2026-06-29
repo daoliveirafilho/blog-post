@@ -232,37 +232,41 @@ export function getTranslatedProjectBySlug(
 // Skills
 export const skillsList: Array<SkillData> = [
   {
-    id: 'frontendDevelopment',
+    id: 'uiUxDesign',
     iconName: 'MonitorSmartphone',
     technologies: [
-      { id: 'html', name: 'HTML' },
-      { id: 'css', name: 'CSS' },
-      { id: 'javascript', name: 'JavaScript' },
+      { id: 'astro', name: 'Astro' },
+      { id: 'react', name: 'React' },
+      { id: 'tailwindcss', name: 'Tailwind' },
       { id: 'typescript', name: 'TypeScript' },
     ],
   },
   {
     id: 'backendDevelopment',
-    iconName: 'ServerCog',
+    iconName: 'Server',
     technologies: [
-      { id: 'nodejs', name: 'Node.js' },
-      { id: 'restapi', name: 'REST APIs' },
+      { id: 'mongodb', name: 'MongoDB' },
+      { id: 'mysql', name: 'Mysql' },
+      { id: 'postgresql', name: 'Postgresql' },
+      { id: 'sqlite', name: 'Sqlite' },
     ],
   },
   {
-    id: 'uiUxDesign',
-    iconName: 'PenTool',
+    id: 'frontendDevelopment',
+    iconName: 'Languages',
     technologies: [
-      { id: 'figma', name: 'Figma' },
-      { id: 'responsiveDesign', name: 'Responsive Design' },
+      { id: 'html5', name: 'HTML' },
+      { id: 'css3', name: 'CSS' },
+      { id: 'javascript', name: 'JavaScript' },
+      { id: 'python', name: 'Python' },
     ],
   },
   {
     id: 'devOps',
     iconName: 'Network',
     technologies: [
+      { id: 'amazonservices', name: 'Amazon' },
       { id: 'git', name: 'Git' },
-      { id: 'docker', name: 'Docker' },
     ],
   },
 ];
