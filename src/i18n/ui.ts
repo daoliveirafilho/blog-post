@@ -154,7 +154,7 @@ export const ui = {
       heroSubtitlePart1: 'Analyste Réseau',
       heroSubtitlePart2: 'Développeur FullStack',
       heroIntroduction: 'Éliminez la complexité des passerelles traditionnelles et acheminez les données directement vers une infrastructure distribuée, garantissant ainsi performance et évolutivité.',
-      heroViewWorkButton: 'Whatsapp',
+      heroViewWorkButton: 'Découvrez mon travail',
       heroContactButton: 'Me contacter',
       heroImageAlt:
         'Illustration représentant Rekall ou un concept de développement',
@@ -436,7 +436,7 @@ export const ui = {
       heroSubtitlePart1: 'Full Stack Developer',
       heroSubtitlePart2: 'Network Analyst',
       heroIntroduction: 'Eliminate the complexity of traditional gateways and deliver data directly to a distributed infrastructure, ensuring performance and scalability.',
-      heroViewWorkButton: 'Whatsapp',
+      heroViewWorkButton: 'See my work',
       heroContactButton: 'Get In Touch',
       heroImageAlt:
         'Illustration representing Rekall or a development concept',
