@@ -144,7 +144,7 @@ export const ui = {
       contact: 'Contact',
     },
     footer: {
-      rights: 'Rekall utilise le thème Astro Persona.',
+      rights: 'utilise le thème Astro Persona.',
     },
     homePage: {
       pageTitle: 'Rekall',
@@ -426,7 +426,7 @@ export const ui = {
       contact: 'Contact',
     },
     footer: {
-      rights: 'Rekall uses the Astro theme.',
+      rights: 'uses the Astro theme.',
     },
     homePage: {
       pageTitle: 'Rekall',
