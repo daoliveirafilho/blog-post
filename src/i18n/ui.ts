@@ -294,7 +294,7 @@ export const ui = {
   },
   en: {
     projectsContent: {
-      firstProject: {
+      lastProject: {
         title: 'Observability',
         description: 'Observability and monitoring',
         imageAltText: 'Observability',
@@ -327,7 +327,7 @@ export const ui = {
           'Description of challenges encountered while creating this sample project.',
         learnings: 'Description of learnings from this sample project.',
       },
-      lastProject: {
+      firstProject: {
         title: 'AI Agentic',
         description: 'Autonomous artificial intelligence',
         imageAltText: 'AI Agentic',
