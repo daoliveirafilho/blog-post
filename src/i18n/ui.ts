@@ -134,7 +134,7 @@ export const ui = {
     site: {
       title: 'Rekall',
       description:
-        'Un template Astro moderne et performant pour démarrer votre projet.',
+        'Enregistrer toutes les données.',
     },
     nav: {
       home: 'Accueil',
@@ -144,7 +144,7 @@ export const ui = {
       contact: 'Contact',
     },
     footer: {
-      rights: 'Utilisation du blog Astro Persona.',
+      rights: 'Rekall utilise le thème Astro Persona.',
     },
     homePage: {
       pageTitle: 'Rekall',
@@ -416,7 +416,7 @@ export const ui = {
     site: {
       title: 'Rekall',
       description:
-        'Projects of integration.',
+        'Log all data.',
     },
     nav: {
       home: 'Home',
@@ -426,7 +426,7 @@ export const ui = {
       contact: 'Contact',
     },
     footer: {
-      rights: 'Using the Astro Persona blog.',
+      rights: 'Rekall uses the Astro theme.',
     },
     homePage: {
       pageTitle: 'Rekall',
