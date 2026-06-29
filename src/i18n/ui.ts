@@ -19,14 +19,18 @@ export const ui = {
         detailedDescription:
           "Intelligence artificielle capable de atteindre un objectif complexe de manière autonome.",
         keyFeatures: {
-          responsiveDesign: {
-            title: 'Design Adaptatif',
+          grafana: {
+            title: 'Grafana',
             description: "Envisagez d'utiliser des protocoles open source comme MCP, une norme ouverte émergente qui crée une couche unifiée et sécurisée permettant aux LLM de se connecter de manière transparente aux sources de données et aux outils.",
           },
-          contentManagement: {
-            title: 'Gestion de Contenu Facile',
+          influxdb: {
+            title: 'InfluxDB',
             description:
               'Récupère les données externes (documents, bases de données) et les intègre au modèle, garantissant ainsi des réponses hautement pertinentes et précises.',
+          },
+          telegraf: {
+            title: 'Telegraf',
+            description: "Envisagez d'utiliser des protocoles open source comme MCP, une norme ouverte émergente qui crée une couche unifiée et sécurisée permettant aux LLM de se connecter de manière transparente aux sources de données et aux outils.",
           },
         },
         galleryImages: {
@@ -48,12 +52,16 @@ export const ui = {
         detailedDescription:
           "Intelligence artificielle capable de atteindre un objectif complexe de manière autonome.",
         keyFeatures: {
-          responsiveDesign: {
-            title: 'Design Adaptatif',
+          ollama: {
+            title: 'Ollama',
             description: "Envisagez d'utiliser des protocoles open source comme MCP, une norme ouverte émergente qui crée une couche unifiée et sécurisée permettant aux LLM de se connecter de manière transparente aux sources de données et aux outils.",
           },
-          contentManagement: {
-            title: 'Gestion de Contenu Facile',
+          php: {
+            title: 'PHP',
+            description: "Envisagez d'utiliser des protocoles open source comme MCP, une norme ouverte émergente qui crée une couche unifiée et sécurisée permettant aux LLM de se connecter de manière transparente aux sources de données et aux outils.",
+          },
+          telegram: {
+            title: 'Telegram',
             description:
               'Récupère les données externes (documents, bases de données) et les intègre au modèle, garantissant ainsi des réponses hautement pertinentes et précises.',
           },
@@ -77,12 +85,16 @@ export const ui = {
         detailedDescription:
           "Acquisition de données reposant sur un modèle de déploiement flexible ainsi que sur un ensemble de politiques et de procédures régissant la continuité, le rétablissement de l'environnement et la réplication des données stockées, soutenant ainsi les applications informatiques pour en garantir la stabilité.",
         keyFeatures: {
-          responsiveDesign: {
-            title: 'Observabilité',
+          esp32: {
+            title: 'ESP32',
             description: "Les appareils transmettent ces données sans fil via une passerelle Internet. En cas d'anomalies détectées, les actionneurs peuvent déclencher automatiquement des réactions physiques.",
           },
-          contentManagement: {
-            title: 'Gestion de Contenu Facile',
+          freertos: {
+            title: 'FreeRTOS',
+            description: "Les appareils transmettent ces données sans fil via une passerelle Internet. En cas d'anomalies détectées, les actionneurs peuvent déclencher automatiquement des réactions physiques.",
+          },
+          supabase: {
+            title: 'Supabase',
             description:
               'Les serveurs cloud ou edge reçoivent les flux de données entrants et les tableaux de bord analysent les indicateurs.',
           },
@@ -291,12 +303,16 @@ export const ui = {
         detailedDescription:
           'Autonomous artificial intelligence systems designed to achieve specific goals by independently planning, executing, and refining their own action plans.',
         keyFeatures: {
-          responsiveDesign: {
-            title: 'Responsive Design',
+          grafana: {
+            title: 'Grafana',
             description: 'Consider utilizing open-source protocols like MCP, an emerging open standard that creates a unified, secure layer for LLMs to connect with data sources and tools seamlessly.',
           },
-          contentManagement: {
-            title: 'Easy Content Management',
+          influxdb: {
+            title: 'InfluxDB',
+            description: 'Consider utilizing open-source protocols like MCP, an emerging open standard that creates a unified, secure layer for LLMs to connect with data sources and tools seamlessly.',
+          },
+          telegraf: {
+            title: 'Telegraf',
             description:
               'Retrieves external data (documents, databases) and feeds it to the model, ensuring highly relevant and accurate responses.',
           },
@@ -320,14 +336,18 @@ export const ui = {
         detailedDescription:
           'Autonomous artificial intelligence systems designed to achieve specific goals by independently planning, executing, and refining their own action plans.',
         keyFeatures: {
-          responsiveDesign: {
-            title: 'Responsive Design',
+          ollama: {
+            title: 'Ollama',
             description: 'Consider utilizing open-source protocols like MCP, an emerging open standard that creates a unified, secure layer for LLMs to connect with data sources and tools seamlessly.',
           },
-          contentManagement: {
-            title: 'Easy Content Management',
+          php: {
+            title: 'PHP',
             description:
               'Retrieves external data (documents, databases) and feeds it to the model, ensuring highly relevant and accurate responses.',
+          },
+          telegram: {
+            title: 'Telegram',
+            description: 'Consider utilizing open-source protocols like MCP, an emerging open standard that creates a unified, secure layer for LLMs to connect with data sources and tools seamlessly.',
           },
         },
         galleryImages: {
@@ -349,12 +369,16 @@ export const ui = {
         detailedDescription:
           'Data acquisition featuring a flexible deployment model and a set of policies and procedures governing continuity, environment recovery, and stored data replication, thereby supporting IT applications to ensure their stability.',
         keyFeatures: {
-          responsiveDesign: {
-            title: 'Telemetry',
+          esp32: {
+            title: 'ESP32',
             description: 'The project adapts to all screen sizes.',
           },
-          contentManagement: {
-            title: 'Internet of things',
+          freertos: {
+            title: 'FreeRTOS',
+            description: 'The project adapts to all screen sizes.',
+          },
+          supabase: {
+            title: 'Supabase',
             description:
               'Allows for easy content management via Markdown files or a CMS.',
           },
