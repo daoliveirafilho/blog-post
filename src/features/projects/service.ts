@@ -1,8 +1,8 @@
 // Import i18n utilities
 import { ui, defaultLanguage, type LanguageCode } from '@/i18n/ui';
+import placeholderLast from '@/assets/placeholderLast.webp';
 import placeholderFirst from '@/assets/placeholderFirst.webp';
 import placeholderSecond from '@/assets/placeholderSecond.webp';
-import placeholderLast from '@/assets/placeholderLast.webp';
 import type {
   ProjectData,
   SkillData,
