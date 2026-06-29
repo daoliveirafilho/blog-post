@@ -15,7 +15,7 @@ export const ui = {
         description: "Observabilité et surveillance.",
         imageAltText: "Observabilité",
         categoryText: 'Enregistrer',
-        dateText: 'Mars 2026',
+        dateText: 'Mars 2023',
         detailedDescription:
           "Intelligence artificielle capable de atteindre un objectif complexe de manière autonome.",
         keyFeatures: {
@@ -299,7 +299,7 @@ export const ui = {
         description: 'Observability and monitoring',
         imageAltText: 'Observability',
         categoryText: 'Log',
-        dateText: 'March 2026',
+        dateText: 'March 2023',
         detailedDescription:
           'Autonomous artificial intelligence systems designed to achieve specific goals by independently planning, executing, and refining their own action plans.',
         keyFeatures: {
