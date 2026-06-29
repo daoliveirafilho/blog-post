@@ -10,7 +10,7 @@ export type LanguageCode = keyof typeof languages;
 export const ui = {
   fr: {
     projectsContent: {
-      firstProject: {
+      lastProject: {
         title: 'Observabilité',
         description: "Observabilité et surveillance.",
         imageAltText: "Observabilité",
@@ -43,7 +43,7 @@ export const ui = {
           'Description des défis rencontrés lors de la création de ce projet exemple.',
         learnings: 'Description des apprentissages tirés de ce projet exemple.',
       },
-      lastProject: {
+      firstProject: {
         title: 'IA Agentique',
         description: "Intelligence artificielle autonome.",
         imageAltText: "IA Agentique",
