@@ -236,8 +236,7 @@ export const skillsList: Array<SkillData> = [
     iconName: 'MonitorSmartphone',
     technologies: [
       { id: 'astro', name: 'Astro' },
-      { id: 'react', name: 'React' },
-      { id: 'tailwindcss', name: 'Tailwind' },
+      { id: 'javascript', name: 'JavaScript' },
       { id: 'typescript', name: 'TypeScript' },
     ],
   },
@@ -245,7 +244,6 @@ export const skillsList: Array<SkillData> = [
     id: 'backendDevelopment',
     iconName: 'Server',
     technologies: [
-      { id: 'mongodb', name: 'MongoDB' },
       { id: 'mysql', name: 'Mysql' },
       { id: 'postgresql', name: 'Postgresql' },
       { id: 'sqlite', name: 'Sqlite' },
@@ -257,8 +255,6 @@ export const skillsList: Array<SkillData> = [
     technologies: [
       { id: 'html5', name: 'HTML' },
       { id: 'css3', name: 'CSS' },
-      { id: 'javascript', name: 'JavaScript' },
-      { id: 'python', name: 'Python' },
     ],
   },
   {
