@@ -13,12 +13,12 @@ import type {
 const projectsListUnsorted: Array<ProjectData> = [
   {
     id: 'firstProject', // Unique identifier for translations
-    slug: 'last-project', // Used in the URL
+    slug: 'first-project', // Used in the URL
     imageUrl: placeholderFirst, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['Grafana', 'InfluxDB', 'Telegraf'], // Generic tags
-    category: 'API', // Generic category
+    category: 'Enregistrer', // Generic category
     date: '2018-03-12', // Generic date
     galleryImages: [
       // Optional: Gallery images for the project
@@ -47,7 +47,7 @@ const projectsListUnsorted: Array<ProjectData> = [
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['Ollama', 'PHP', 'Telegram'], // Generic tags
-    category: 'API', // Generic category
+    category: 'Application Web', // Generic category
     date: '2020-01-02', // Generic date
     galleryImages: [
       // Optional: Gallery images for the project
