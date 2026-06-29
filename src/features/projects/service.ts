@@ -19,7 +19,7 @@ const projectsListUnsorted: Array<ProjectData> = [
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['Grafana', 'InfluxDB', 'Telegraf'], // Generic tags
     category: 'Enregistrer', // Generic category
-    date: '2026-03-12', // Generic date
+    date: '2023-03-12', // Generic date
     galleryImages: [
       // Optional: Gallery images for the project
       // {
