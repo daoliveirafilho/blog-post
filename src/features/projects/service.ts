@@ -235,7 +235,6 @@ export const skillsList: Array<SkillData> = [
     id: 'uiUxDesign',
     iconName: 'MonitorSmartphone',
     technologies: [
-      { id: 'astro', name: 'Astro' },
       { id: 'javascript', name: 'JavaScript' },
       { id: 'typescript', name: 'TypeScript' },
     ],
@@ -253,8 +252,9 @@ export const skillsList: Array<SkillData> = [
     id: 'frontendDevelopment',
     iconName: 'Languages',
     technologies: [
-      { id: 'html5', name: 'HTML' },
+      { id: 'astro', name: 'Astro' },
       { id: 'css3', name: 'CSS' },
+      { id: 'html5', name: 'HTML' },
     ],
   },
   {
