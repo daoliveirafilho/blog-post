@@ -1,6 +1,6 @@
 // Import i18n utilities
 import { ui, defaultLanguage, type LanguageCode } from '@/i18n/ui';
-import placeholderImage from '@/assets/placeholder.webp';
+import placeholderFirst from '@/assets/placeholderFirst.webp';
 import placeholderSecond from '@/assets/placeholderSecond.webp';
 import placeholderLast from '@/assets/placeholderLast.webp';
 import type {
@@ -12,14 +12,14 @@ import type {
 
 const projectsListUnsorted: Array<ProjectData> = [
   {
-    id: 'lastProject', // Unique identifier for translations
+    id: 'firstProject', // Unique identifier for translations
     slug: 'last-project', // Used in the URL
-    imageUrl: placeholderLast, // Use imported ImageMetadata
+    imageUrl: placeholderFirst, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['Ollama', 'PHP', 'Telegram'], // Generic tags
     category: 'API', // Generic category
-    date: '2025-01-01', // Generic date
+    date: '2018-03-12', // Generic date
     galleryImages: [
       // Optional: Gallery images for the project
       // {
@@ -29,8 +29,38 @@ const projectsListUnsorted: Array<ProjectData> = [
     ],
     keyFeatures: [
       // Key features (IDs for translation)
-      { id: 'responsiveDesign' },
-      { id: 'contentManagement' },
+      { id: 'grafana' },
+      { id: 'influxdb' },
+      { id: 'telegraf' },
+    ],
+    technologiesUsed: [
+      // Technologies used (IDs for display)
+      { id: 'grafana', name: 'Grafana' },
+      { id: 'influxdb', name: 'InfluxDB' },
+      { id: 'telegraf', name: 'Telegraf' },
+    ],
+  },
+  {
+    id: 'lastProject', // Unique identifier for translations
+    slug: 'last-project', // Used in the URL
+    imageUrl: placeholderLast, // Use imported ImageMetadata
+    // projectUrl: '#', // Optional: Link to the live project
+    // codeUrl: '#', // Optional: Link to the source code
+    tags: ['Ollama', 'PHP', 'Telegram'], // Generic tags
+    category: 'API', // Generic category
+    date: '2020-01-02', // Generic date
+    galleryImages: [
+      // Optional: Gallery images for the project
+      // {
+      //   id: 'sampleGalleryImage1',
+      //   src: placeholderImage, // Placeholder, needs ImageMetadata
+      // },
+    ],
+    keyFeatures: [
+      // Key features (IDs for translation)
+      { id: 'ollama' },
+      { id: 'php' },
+      { id: 'telegram' },
     ],
     technologiesUsed: [
       // Technologies used (IDs for display)
@@ -47,7 +77,7 @@ const projectsListUnsorted: Array<ProjectData> = [
     // codeUrl: '#', // Optional: Link to the source code
     tags: ['ESP32', 'FreeRTOS', 'Supabase'], // Generic tags
     category: 'Internet of Thinks', // Generic category
-    date: '2023-01-01', // Generic date
+    date: '2020-01-11', // Generic date
     galleryImages: [
       // Optional: Gallery images for the project
       // {
@@ -57,8 +87,9 @@ const projectsListUnsorted: Array<ProjectData> = [
     ],
     keyFeatures: [
       // Key features (IDs for translation)
-      { id: 'responsiveDesign' },
-      { id: 'contentManagement' },
+      { id: 'esp32' },
+      { id: 'freertos' },
+      { id: 'supabase' },
     ],
     technologiesUsed: [
       // Technologies used (IDs for display)
