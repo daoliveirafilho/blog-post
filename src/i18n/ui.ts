@@ -10,12 +10,41 @@ export type LanguageCode = keyof typeof languages;
 export const ui = {
   fr: {
     projectsContent: {
+      firstProject: {
+        title: 'Observabilité',
+        description: "Observabilité et surveillance.",
+        imageAltText: "Observabilité",
+        categoryText: 'Enregistrer',
+        dateText: 'Janvier 2018',
+        detailedDescription:
+          "Intelligence artificielle capable de atteindre un objectif complexe de manière autonome.",
+        keyFeatures: {
+          responsiveDesign: {
+            title: 'Design Adaptatif',
+            description: "Envisagez d'utiliser des protocoles open source comme MCP, une norme ouverte émergente qui crée une couche unifiée et sécurisée permettant aux LLM de se connecter de manière transparente aux sources de données et aux outils.",
+          },
+          contentManagement: {
+            title: 'Gestion de Contenu Facile',
+            description:
+              'Récupère les données externes (documents, bases de données) et les intègre au modèle, garantissant ainsi des réponses hautement pertinentes et précises.',
+          },
+        },
+        galleryImages: {
+          // sampleGalleryImage1: { // Si tu actives la galerie pour l'exemple
+          //   alt: "Texte alternatif pour l'image de galerie 1",
+          //   caption: "Légende pour l'image de galerie 1",
+          // },
+        },
+        challenges:
+          'Description des défis rencontrés lors de la création de ce projet exemple.',
+        learnings: 'Description des apprentissages tirés de ce projet exemple.',
+      },
       lastProject: {
         title: 'IA Agentique',
         description: "Intelligence artificielle autonome.",
         imageAltText: "IA Agentique",
         categoryText: 'Application Web',
-        dateText: 'Janvier 2025',
+        dateText: 'Janvier 2020',
         detailedDescription:
           "Intelligence artificielle capable de atteindre un objectif complexe de manière autonome.",
         keyFeatures: {
@@ -44,7 +73,7 @@ export const ui = {
         description: "Enregistreur de données de télémétrie.",
         imageAltText: "Télémétrie",
         categoryText: 'Internet des objets',
-        dateText: 'Janvier 2023',
+        dateText: 'Janvier 2019',
         detailedDescription:
           "Acquisition de données reposant sur un modèle de déploiement flexible ainsi que sur un ensemble de politiques et de procédures régissant la continuité, le rétablissement de l'environnement et la réplication des données stockées, soutenant ainsi les applications informatiques pour en garantir la stabilité.",
         keyFeatures: {
@@ -253,12 +282,41 @@ export const ui = {
   },
   en: {
     projectsContent: {
+      firstProject: {
+        title: 'Observability',
+        description: 'Observability and monitoring',
+        imageAltText: 'Observability',
+        categoryText: 'Log',
+        dateText: 'January 2018',
+        detailedDescription:
+          'Autonomous artificial intelligence systems designed to achieve specific goals by independently planning, executing, and refining their own action plans.',
+        keyFeatures: {
+          responsiveDesign: {
+            title: 'Responsive Design',
+            description: 'Consider utilizing open-source protocols like MCP, an emerging open standard that creates a unified, secure layer for LLMs to connect with data sources and tools seamlessly.',
+          },
+          contentManagement: {
+            title: 'Easy Content Management',
+            description:
+              'Retrieves external data (documents, databases) and feeds it to the model, ensuring highly relevant and accurate responses.',
+          },
+        },
+        galleryImages: {
+          // sampleGalleryImage1: { // If you enable gallery for the example
+          //   alt: 'Alt text for gallery image 1',
+          //   caption: 'Caption for gallery image 1',
+          // },
+        },
+        challenges:
+          'Description of challenges encountered while creating this sample project.',
+        learnings: 'Description of learnings from this sample project.',
+      },
       lastProject: {
         title: 'AI Agentic',
         description: 'Autonomous artificial intelligence',
         imageAltText: 'AI Agentic',
         categoryText: 'Web Application',
-        dateText: 'January 2025',
+        dateText: 'January 2020',
         detailedDescription:
           'Autonomous artificial intelligence systems designed to achieve specific goals by independently planning, executing, and refining their own action plans.',
         keyFeatures: {
@@ -287,7 +345,7 @@ export const ui = {
         description: 'Telemetry data logger.',
         imageAltText: 'Telemetry',
         categoryText: 'Internet of things',
-        dateText: 'January 2023',
+        dateText: 'January 2019',
         detailedDescription:
           'Data acquisition featuring a flexible deployment model and a set of policies and procedures governing continuity, environment recovery, and stored data replication, thereby supporting IT applications to ensure their stability.',
         keyFeatures: {
