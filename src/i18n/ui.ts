@@ -15,7 +15,7 @@ export const ui = {
         description: "Observabilité et surveillance.",
         imageAltText: "Observabilité",
         categoryText: 'Enregistrer',
-        dateText: 'Janvier 2018',
+        dateText: 'Mars 2018',
         detailedDescription:
           "Intelligence artificielle capable de atteindre un objectif complexe de manière autonome.",
         keyFeatures: {
@@ -73,7 +73,7 @@ export const ui = {
         description: "Enregistreur de données de télémétrie.",
         imageAltText: "Télémétrie",
         categoryText: 'Internet des objets',
-        dateText: 'Janvier 2019',
+        dateText: 'Novembre 2019',
         detailedDescription:
           "Acquisition de données reposant sur un modèle de déploiement flexible ainsi que sur un ensemble de politiques et de procédures régissant la continuité, le rétablissement de l'environnement et la réplication des données stockées, soutenant ainsi les applications informatiques pour en garantir la stabilité.",
         keyFeatures: {
@@ -287,7 +287,7 @@ export const ui = {
         description: 'Observability and monitoring',
         imageAltText: 'Observability',
         categoryText: 'Log',
-        dateText: 'January 2018',
+        dateText: 'March 2018',
         detailedDescription:
           'Autonomous artificial intelligence systems designed to achieve specific goals by independently planning, executing, and refining their own action plans.',
         keyFeatures: {
@@ -345,7 +345,7 @@ export const ui = {
         description: 'Telemetry data logger.',
         imageAltText: 'Telemetry',
         categoryText: 'Internet of things',
-        dateText: 'January 2019',
+        dateText: 'November 2019',
         detailedDescription:
           'Data acquisition featuring a flexible deployment model and a set of policies and procedures governing continuity, environment recovery, and stored data replication, thereby supporting IT applications to ensure their stability.',
         keyFeatures: {
