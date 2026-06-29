@@ -12,8 +12,8 @@ import type {
 
 const projectsListUnsorted: Array<ProjectData> = [
   {
-    id: 'firstProject', // Unique identifier for translations
-    slug: 'first-project', // Used in the URL
+    id: 'lastProject', // Unique identifier for translations
+    slug: 'last-project', // Used in the URL
     imageUrl: placeholderFirst, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
@@ -41,8 +41,8 @@ const projectsListUnsorted: Array<ProjectData> = [
     ],
   },
   {
-    id: 'lastProject', // Unique identifier for translations
-    slug: 'last-project', // Used in the URL
+    id: 'firstProject', // Unique identifier for translations
+    slug: 'first-project', // Used in the URL
     imageUrl: placeholderLast, // Use imported ImageMetadata
     // projectUrl: '#', // Optional: Link to the live project
     // codeUrl: '#', // Optional: Link to the source code
