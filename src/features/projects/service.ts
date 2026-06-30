@@ -261,7 +261,6 @@ export const skillsList: Array<SkillData> = [
     id: 'devOps',
     iconName: 'Network',
     technologies: [
-      { id: 'amazonservices', name: 'Amazon' },
       { id: 'git', name: 'Git' },
     ],
   },
