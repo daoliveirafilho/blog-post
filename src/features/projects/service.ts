@@ -243,8 +243,8 @@ export const skillsList: Array<SkillData> = [
     id: 'backendDevelopment',
     iconName: 'Server',
     technologies: [
+      { id: 'gnubash', name: 'Gnu Bash' },
       { id: 'influxdb', name: 'InfluxDB' },
-      { id: 'mysql', name: 'Mysql' },
       { id: 'postgresql', name: 'Postgresql' },
       { id: 'redis', name: 'Redis' },
       { id: 'sqlite', name: 'Sqlite' },
@@ -264,7 +264,6 @@ export const skillsList: Array<SkillData> = [
     iconName: 'Network',
     technologies: [
       { id: 'git', name: 'Git' },
-      { id: 'gnubash', name: 'Gnu Bash' },
     ],
   },
 ];
