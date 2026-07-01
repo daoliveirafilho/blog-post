@@ -246,6 +246,7 @@ export const skillsList: Array<SkillData> = [
       { id: 'influxdb', name: 'InfluxDB' },
       { id: 'mysql', name: 'Mysql' },
       { id: 'postgresql', name: 'Postgresql' },
+      { id: 'redis', name: 'Redis' },
       { id: 'sqlite', name: 'Sqlite' },
     ],
   },
